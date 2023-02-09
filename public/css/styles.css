@@ -1,0 +1,281 @@
+nav a {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff0db;
+    display: block;
+    height: 100%;
+    width: 8vw;
+    font-size: 1rem;
+    padding-top: 1.8rem;
+    text-align: center;
+    transition: all 200ms ease-in;
+}
+
+nav a:hover {
+    color: #5a8cad;
+    background-color: #fff0db;
+}
+
+body{
+    margin: 0;
+    color: #31302f;
+    background-color: #fff0db;
+}
+
+main {
+    padding-top: 2rem;
+    height: 100%;
+    width: 60vw;
+    color: #31302f;
+    background-color: #fff0db;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    height: 5rem;
+    width: 100vw;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #5a8cad;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    font-family: 'Nunito', sans-serif;
+    border-color: rgb(61, 87, 109);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #fff0db;
+    color: #31302f;
+    margin-top: 1rem;
+    transition: all 100ms ease-in;
+}
+
+input:focus {
+    background-color: #d4cabc;
+    color: #1d2024;
+}
+
+
+button {
+    height: 3rem;
+    box-sizing: border-box;
+    font-weight: lighter;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+    background-color: rgb(61, 87, 109);
+    color: #fff0db;
+    margin-top: 1rem;
+    font-size: 2rem;
+    transition: all 100ms ease-in;
+}
+
+button:active {
+    background-color: rgb(39, 52, 63);
+    color: #ffe1b6;
+    font-size: 1.9rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: #31302f;
+}
+
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+.formPage {
+    width: 30vw;
+}
+
+main a {
+    transition: all 100ms linear;
+    color: #31302f;
+}
+
+h3 a:hover {
+    color: #536574;
+    text-decoration: underline;
+}
+
+::placeholder {
+    color: rgb(61, 87, 109);
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: rgb(61, 87, 109);
+  }
+  
+  ::-ms-input-placeholder {
+    color: rgb(61, 87, 109);
+  }
+
+.authButton {
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.botaoDespesa {
+    font-weight: bold;
+    margin-top: 0%;
+    box-sizing: border-box;
+    height: 5rem;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    width: fit-content;
+    background-color: rgb(39, 52, 63);
+    text-decoration: none;
+    color: #ffe1b6;
+    border-radius: 10px;
+    transition: all 100ms ease-in;
+}
+
+.botaoDespesa:hover {
+    font-size: 1.8rem;
+    cursor: pointer;
+    background-color: rgb(47, 79, 107);
+}
+
+.botaoDespesa:active {
+    color: #b8a182;
+    background-color: rgb(47, 79, 107);
+}
+
+#containerBotoesCRUD {
+    display: flex;
+    justify-content: space-around;
+}
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  appearance: inherit;
+}
+
+#deletar {
+    height: 5rem;
+    padding: 1.5rem;
+    font-size: 1.7rem;
+    width: fit-content;
+    text-decoration: none;
+    color: #ffe1b6;
+    border-radius: 10px;
+    transition: all 100ms ease-in;
+    background-color: #720505;
+}
+
+#deletar:hover {
+    font-size: 1.8rem;
+    background-color: #500000;
+}
+
+#deletar:active {
+    background-color: #500000;
+    color: #ffe1b6;
+    font-size: 1.8rem;
+}
+
+.formError {
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    box-sizing: border-box;
+    color: #720505;
+    background-color: #f19f8681;
+    padding: 2px;
+}
+
+#containerBotoesCRUD form{
+    margin: 0;
+}
+select {
+    width: auto;
+}
+
+#busca {
+    border: 2px solid rgb(61, 87, 109);
+    background-color: #cacaca;
+}
+
+select {
+    display: block;
+    margin: 0;
+}
+
+#formBusca {
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #dbc4a5;
+    margin-top: 2rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+#formBusca input{
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 20%;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+
+#formBusca select{
+    margin: 0;
+    height: 100%;
+}
+
+#formBusca label{
+    display: inline;
+}
+
+#formBusca button{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffe1b6;
+    border-radius: 10px;
+    transition: all 100ms ease-in;
+    margin-top: 0;
+    margin-left: 1rem;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+}
